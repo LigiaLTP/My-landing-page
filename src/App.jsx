@@ -110,7 +110,7 @@ function App() {
                   GitHub
                 </a>
 
-                <a href="#" target="_blank">
+                <a href="https://ligiawebpage.netlify.app/" target="_blank">
                   Live Demo
                 </a>
               </div>
