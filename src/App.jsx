@@ -3,7 +3,19 @@ import "./App.css";
 function App() {
   return (
     <div className="app">
-      <section className="hero">
+      <header className="navbar">
+        <a href="#home" className="logo">
+          Ligia<span>.</span>
+        </a>
+
+        <nav className="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+      <section id="home" className="hero">
         <div className="overlay"></div>
 
         <div className="content">
@@ -15,8 +27,8 @@ function App() {
 
           <p className="subtitle">
             Aspiring Frontend Developer passionate about building modern,
-            responsive and user-friendly web applications with React,
-            JavaScript and clean UI design.
+            responsive and user-friendly web applications with React, JavaScript
+            and clean UI design.
           </p>
 
           <div className="buttons">
@@ -31,14 +43,13 @@ function App() {
         </div>
       </section>
 
-      <section className="about">
+      <section id="about" className="about">
         <div className="container">
           <h2>About Me</h2>
 
           <p>
-            I'm a Software Engineer currently transitioning into Frontend
-            Development, with a strong interest in creating modern interfaces
-            that are intuitive, responsive and visually polished.
+            I am currently learning Frontend Development and building projects
+            with React, JavaScript and responsive UI design.
           </p>
 
           <p>
@@ -56,7 +67,7 @@ function App() {
         </div>
       </section>
 
-      <section className="skills">
+      <section id="skills" className="skills">
         <div className="container">
           <h2>Tech Stack</h2>
 
@@ -70,7 +81,6 @@ function App() {
           </div>
         </div>
       </section>
-
       <section id="projects" className="projects">
         <div className="container">
           <h2>Featured Projects</h2>
@@ -78,42 +88,94 @@ function App() {
           <div className="project-grid">
             <div className="project-card">
               <h3>Personal Portfolio Website</h3>
+
               <p>
-                Responsive portfolio website built with React featuring reusable
-                components, modern layout and smooth navigation across sections.
+                Responsive portfolio landing page built with React and Vite. The
+                project includes a modern hero section, about section, tech
+                stack, project cards and contact area.
               </p>
+
+              <div className="project-tags">
+                <span>React</span>
+                <span>Vite</span>
+                <span>CSS</span>
+                <span>Responsive Design</span>
+              </div>
+
+              <div className="project-links">
+                <a
+                  href="https://github.com/Ligiaxxx/Web-Page.git"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+
+                <a href="#" target="_blank">
+                  Live Demo
+                </a>
+              </div>
             </div>
 
             <div className="project-card">
-              <h3>Weather App</h3>
-              <p>
-                Interactive weather dashboard consuming REST API data and
-                displaying live weather conditions with clean UI components.
-              </p>
-            </div>
+              <h3>Add To Cart App</h3>
 
-            <div className="project-card">
-              <h3>Task Management App</h3>
               <p>
-                To-do application developed using JavaScript with task creation,
-                filtering and local storage persistence.
+                Simple shopping cart project built to practice JavaScript logic,
+                product cards, cart updates and basic user interaction.
               </p>
+
+              <div className="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+
+              <div className="project-links">
+                <a
+                  href="https://github.com/Ligiaxxx/AddToCart.git"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+
+                <a href="#" target="_blank">
+                  Live Demo
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </section>
-
       <section id="contact" className="contact">
         <div className="container">
           <h2>Let's Connect</h2>
 
           <p>
             Open to Frontend Internship opportunities, collaborations and
-            exciting projects where I can learn, contribute and grow as a
-            developer.
+            projects where I can learn, contribute and grow as a developer.
           </p>
 
-          <p>Email: a32099404@gmail.com</p>
+          <div className="contact-links">
+            <a href="mailto:a32099404@gmail.com" className="contact-link">
+              Email
+            </a>
+
+            <a
+              href="https://github.com/Ligiaxxx"
+              target="_blank"
+              className="contact-link"
+            >
+              GitHub
+            </a>
+
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              className="contact-link"
+            >
+              LinkedIn
+            </a>
+          </div>
         </div>
       </section>
     </div>
