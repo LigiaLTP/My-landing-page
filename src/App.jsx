@@ -138,7 +138,7 @@ function App() {
                   GitHub
                 </a>
 
-                <a href="#" target="_blank">
+                <a href="https://ligiaaddtocart.netlify.app/" target="_blank">
                   Live Demo
                 </a>
               </div>
