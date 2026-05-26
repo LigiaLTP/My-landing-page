@@ -104,7 +104,7 @@ function App() {
 
               <div className="project-links">
                 <a
-                  href="https://github.com/Ligiaxxx/Web-Page.git"
+                  href="https://github.com/LigiaLTP/Web-Page.git"
                   target="_blank"
                 >
                   GitHub
@@ -132,7 +132,7 @@ function App() {
 
               <div className="project-links">
                 <a
-                  href="https://github.com/Ligiaxxx/AddToCart.git"
+                  href="https://github.com/LigiaLTP/AddToCart.git"
                   target="_blank"
                 >
                   GitHub
@@ -161,7 +161,7 @@ function App() {
             </a>
 
             <a
-              href="https://github.com/Ligiaxxx"
+              href="https://github.com/LigiaLTP"
               target="_blank"
               className="contact-link"
             >
