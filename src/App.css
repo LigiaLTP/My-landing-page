@@ -157,12 +157,30 @@ h2 {
   color: #cbd5e1;
 }
 
-.cards,
-.project-grid {
+.cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   margin-top: 40px;
   gap: 24px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /*este o prescurtare pentru: grid-template-columns: 1fr 1fr; fr vine de la fraction (fracțiune).*/
+  margin-top: 40px;
+  gap: 24px;
+}
+
+.project-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  padding: 32px;
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  transition: 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .card,
@@ -253,6 +271,7 @@ h2 {
   background: rgba(255, 255, 255, 0.08);
 }
 
+/* Tablete și telefoane */
 @media (max-width: 768px) {
   .navbar {
     top: 12px;
@@ -303,12 +322,16 @@ h2 {
   }
 
   .cards,
-  .project-grid,
   .contact-links {
+    grid-template-columns: 1fr;
+  }
+
+  .project-grid {
     grid-template-columns: 1fr;
   }
 }
 
+/*Telefoane mici*/
 @media (max-width: 480px) {
   .navbar {
     position: absolute;
@@ -335,3 +358,7 @@ h2 {
     padding: 24px;
   }
 }
+
+/*Laptopuri mici și tablete landscape
+@media (max-width: 1024px)
+*/

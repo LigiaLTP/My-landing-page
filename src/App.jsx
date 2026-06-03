@@ -86,6 +86,7 @@ function App() {
           <h2>Featured Projects</h2>
 
           <div className="project-grid">
+            {/* Personal portfolio App */}
             <div className="project-card">
               <h3>Personal Portfolio Website</h3>
 
@@ -116,6 +117,7 @@ function App() {
               </div>
             </div>
 
+            {/* Add to Cart App */}
             <div className="project-card">
               <h3>Add To Cart App</h3>
 
@@ -139,6 +141,64 @@ function App() {
                 </a>
 
                 <a href="https://ligiaaddtocart.netlify.app/" target="_blank">
+                  Live Demo
+                </a>
+              </div>
+            </div>
+
+            {/* Room booking App */}
+            <div className="project-card">
+              <h3>Room booking App</h3>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ducimus libero temporibus fugit corrupti nisi aperiam, 
+                esse dolore hic
+               </p>
+
+              <div className="project-tags">
+                <span>React</span>
+                <span>Vite</span>
+                <span>CSS</span>
+                <span>Responsive Design</span>
+              </div>
+
+              <div className="project-links">
+                <a
+                  href="https://github.com/LigiaLTP/Room-Booking-App.git"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+
+                <a href="https://roombookingapp.netlify.app/" target="_blank">
+                  Live Demo
+                </a>
+              </div>
+            </div>
+
+              {/* Landing page - Kagaya Beach*/}
+            <div className="project-card">
+              <h3>Kagaya Beach</h3>
+
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, repellat.
+              </p>
+
+              <div className="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+
+              <div className="project-links">
+                <a
+                  href="https://github.com/LigiaLTP/Kagaya-Beach.git"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+
+                <a href="https://kagayabeach.netlify.app/" target="_blank">
                   Live Demo
                 </a>
               </div>
