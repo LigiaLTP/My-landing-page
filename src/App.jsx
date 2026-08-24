@@ -147,7 +147,7 @@ function App() {
               </div>
             </div>
 
-            {/* Room booking App */}
+            {/* Room booking App
             <div className="project-card">
               <h3>Room booking App</h3>
 
@@ -175,7 +175,7 @@ function App() {
                   Live Demo
                 </a>
               </div>
-            </div>
+            </div> */}
 
               {/* Landing page - Kagaya Beach*/}
             <div className="project-card">
