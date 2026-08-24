@@ -147,13 +147,12 @@ function App() {
               </div>
             </div>
 
-            {/* Room booking App
+            {/* Dating App*/}
             <div className="project-card">
-              <h3>Room booking App</h3>
+              <h3>Cute Dating App</h3>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ducimus libero temporibus fugit corrupti nisi aperiam, 
-                esse dolore hic
+                Modern and responsive dating website designed to provide an engaging and user-friendly experience. Built with a focus on clean UI, responsive design and intuitive navigation.
                </p>
 
               <div className="project-tags">
@@ -164,18 +163,18 @@ function App() {
               </div>
 
               <div className="project-links">
-                <a
+                {/* <a
                   href="https://github.com/LigiaLTP/Room-Booking-App.git"
                   target="_blank"
                 >
                   GitHub
-                </a>
+                </a> */}
 
-                <a href="https://roombookingapp.netlify.app/" target="_blank">
+                <a href="https://cutedatingsite.netlify.app/" target="_blank">
                   Live Demo
                 </a>
               </div>
-            </div> */}
+            </div>
 
               {/* Landing page - Kagaya Beach*/}
             <div className="project-card">
