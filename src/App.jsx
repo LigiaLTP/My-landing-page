@@ -88,12 +88,13 @@ function App() {
           <div className="project-grid">
             {/* Personal portfolio App */}
             <div className="project-card">
-              <h3>Personal Portfolio Website</h3>
+              <h3>Premier Motors - Mazda ARAD</h3>
 
               <p>
-                Responsive portfolio landing page built with React and Vite. The
-                project includes a modern hero section, about section, tech
-                stack, project cards and contact area.
+                Modern and responsive website developed for Premier Motors Mazda Arad,
+    built with React and Vite. The project focuses on creating a clean,
+    user-friendly experience and presenting automotive content in an
+    engaging and accessible way.
               </p>
 
               <div className="project-tags">
@@ -105,13 +106,13 @@ function App() {
 
               <div className="project-links">
                 <a
-                  href="https://github.com/LigiaLTP/Web-Page.git"
+                  href="https://github.com/LigiaLTP/Premier-Motors---Mazda-Arad"
                   target="_blank"
                 >
                   GitHub
                 </a>
 
-                <a href="https://ligiawebpage.netlify.app/" target="_blank">
+                <a href="https://premier-motors-mazda-arad.netlify.app/" target="_blank">
                   Live Demo
                 </a>
               </div>
@@ -206,6 +207,9 @@ function App() {
           </div>
         </div>
       </section>
+
+
+
       <section id="contact" className="contact">
         <div className="container">
           <h2>Let's Connect</h2>
